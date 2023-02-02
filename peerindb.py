@@ -14,7 +14,7 @@ def get_pdb_data(asn):
 data_list = []
 with open("asn_list.txt") as f:
     asn_list = f.read().split()
-    fd = io.open(r'/home/iskhan/dev/peeringdb/output-pdb', 'w')
+    fd = io.open(r'PATH/output-pdb', 'w')
     old_stdout = sys.stdout
     sys.stdout = fd
 
